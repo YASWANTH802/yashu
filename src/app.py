@@ -5,7 +5,7 @@ import json
 
 def lambda_handler(event, context):
     input = event
-    print(event)
+    print(event are updated)
     return {
         "statusCode": 200,
         "body": json.dumps({
